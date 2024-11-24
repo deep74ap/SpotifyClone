@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.top{
+    height: 5vh;
+    justify-content:space-around;
+}
+
+.top-center img,input{
+    height: 32px;
+}
+
+.left{
+    width: 25vw;
+}
+.right{
+    width: 75vw;
+}
+
+.search{
+    background-color: rgb(135, 125, 125);
+    border-radius: 500px;
+    color: white;
+
+}
+.search input{
+    color: white;
+    height: 80%;
+    width: 220px;
+    justify-content: center;
+    
+    background-color: rgb(135, 125, 125);
+}
