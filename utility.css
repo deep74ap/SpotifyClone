@@ -13,3 +13,17 @@
 .item-center{
     align-items: center;
 }
+.btnStyle{
+    border-radius: 300px;
+
+    padding: 2px;
+    margin-top: 5px;
+    height:auto;
+    border: none;
+    width:fit-content;
+    font-weight:500;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

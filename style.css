@@ -1,8 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
 *{
+    font-family: "Roboto", sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
 
 .top{
     height: 7vh;
@@ -32,12 +39,20 @@
     align-items: center;
     
 }
+.main{
+    margin-top: 5px;
+    
+}
 
 .left{
-    width: 25vw;
+    width: 30vw;
+    margin: 3px;
+    flex-direction: column;
+    
+    background-color: rgb(119, 137, 152);
 }
 .right{
-    width: 75vw;
+    width: 70vw;
 }
 
 .search{
@@ -86,4 +101,64 @@
 .top-right a{
     text-decoration: none;
     color:white;
+}
+
+#libIcon{
+    height: 28px;
+    width: 28px;
+}
+
+.libr {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.libr button{
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    background-color: rgb(119, 137, 152);
+}
+.add button{
+    margin: 15px;
+    height: 20px;
+    width: 20px;
+    border: none;
+    
+    background-color: rgb(119, 137, 152);
+}
+
+.library{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
+}
+.scroll{
+    display: flex;
+    flex-direction: column;
+   
+    overflow-y: scroll;
+    height: 100px;
+    
+}
+.playlist{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(154, 151, 149);
+    margin: 5px;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content:center;
+    
+}
+.podcast{
+    justify-content:center;
+}
+.firstPlaylist{
+    font-size: larger; 
+    font-weight: bold;
+    margin-bottom: 5px;
+     color: white;
 }
