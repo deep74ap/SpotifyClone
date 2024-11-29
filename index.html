@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="btnHover.css">
     <title>Spotify - Home</title>
 </head>
 <body>
@@ -20,10 +21,11 @@
             </button>
             <div class="search flex ">
                 <div class="search-svg">
-                    <img src="search.svg" alt="search"class="invert">
+                    <img src="search.svg" alt="search"class="invert searchBtn">
                 </div>
                 <input type="search" placeholder="What do you want to search ?" >
-                <span>
+                <span class="searchBtn flex">|
+                    
                     <img src="browse.svg" alt="browse" class="invert">
                 </span>
             </div>
@@ -31,7 +33,7 @@
 
         </div>
         <div class="top-right flex">
-            <a href="/">Sign Up</a>
+            <a href="/" class="searchBtn">Sign Up</a>
             <button>Log in</button>
 
         </div>
@@ -41,7 +43,7 @@
         
         <div class="left border flex">
             <div class="library flex">
-                <div class="libr flex">
+                <div class="libr flex searchBtn">
                     <button ><img src="library.svg" alt="library" id="libIcon"> </button>
                     <span>
                         Your Library

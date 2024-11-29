@@ -1,0 +1,19 @@
+.top-center button:hover{
+    transform: scale(1.05);
+  
+    
+}
+.searchBtn{
+    opacity: .7;
+    cursor: pointer;
+    color: white;
+    align-items: center;
+}
+.searchBtn:hover{
+    opacity: 1;
+
+}
+.btnStyle:hover{
+    transform: scale(1.1);
+    font-weight: 500;
+}
