@@ -143,7 +143,7 @@
     flex-direction: column;
    
     overflow-y: scroll;
-    height: 100px;
+    height: 170px;
     
 }
 .playlist{
@@ -164,4 +164,28 @@
     font-weight: bold;
     margin-bottom: 5px;
      color: white;
+}
+
+.link{
+   flex-wrap: wrap;
+   margin: 20px;
+   
+   gap: 10px;
+   
+}
+.link a{
+    text-decoration: none;
+    opacity: 0.8;
+
+       
+}
+.linkItem{
+    font-size: small;
+    color: rgb(83, 82, 82);
+}
+.link a:hover{
+    opacity: 1;
+    color: rgb(247, 242, 242);
+
+       
 }
